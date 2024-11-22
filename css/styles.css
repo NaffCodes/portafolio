@@ -1,0 +1,190 @@
+body {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    background-image: url(images/Fondo.png); /* Ruta a la imagen */
+    background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+    background-attachment: fixed; /* Hace que el fondo sea fijo al hacer scroll */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    font-family: 'Montserrat', sans-serif; /* Fuente para toda la página */
+    color: #ffffff;
+}
+
+
+header {
+    background-color: #034d4f;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #d3ebf1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size:  25;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #034d4f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-me img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.Title h1 {
+    color: #ffffff;
+
+    font-size: 39px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #034d4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #02606d;
+}
+
+.nota {
+    display: none; /* Ocultamos los bloques de texto por defecto */
+    background-color: #d3ebf1;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+color: #034d4f;
+}
+
+
+#notas {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #034d4f;
+}
+
+button {
+    background-color: #034d4f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #04666a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #034d4f;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #034d4f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #04666a;
+}
+
+.footer {
+    background-color: #034d4f;;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: #4576c4;
+    text-decoration: none;
+    margin: 0 5px;
+}
